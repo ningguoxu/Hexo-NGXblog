@@ -1,3 +1,3 @@
-var posts=["2024/08/07/Hexo搭建安之鱼主题配置/","2024/08/06/hello-world/"];function toRandomPost(){
+var posts=["2024/08/07/免费的GPT4！/","2021/08/07/Hexo搭建安之鱼主题配置/","2024/08/09/我的图床方案/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
