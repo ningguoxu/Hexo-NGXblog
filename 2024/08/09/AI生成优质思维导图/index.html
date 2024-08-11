@@ -382,7 +382,7 @@ if (true) {
   const initWaline = () => {
     const waline = Waline.init(Object.assign({
       el: '#waline-wrap',
-      serverURL: 'https://waline-1-c3938780.deta.app',
+      serverURL: 'waline-1-c3938780.deta.app',
       pageview: false,
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
@@ -449,7 +449,7 @@ if (true) {
 
   const getComment = async () => {
     try {
-      const res = await fetch('https://waline-1-c3938780.deta.app/api/comment?type=recent&count=6', { method: 'GET' })
+      const res = await fetch('waline-1-c3938780.deta.app/api/comment?type=recent&count=6', { method: 'GET' })
       const result = await res.json()
       const walineArray = result.data.map(e => {
         return {
