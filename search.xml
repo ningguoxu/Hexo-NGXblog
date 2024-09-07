@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>这可能是最全的 Serverless 平台的使用说明了</title>
+      <link href="/2024/09/07/%E8%BF%99%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E5%85%A8%E7%9A%84%20Serverless%20%E5%B9%B3%E5%8F%B0%E8%AF%B4%E6%98%8E%E4%BA%86/"/>
+      <url>/2024/09/07/%E8%BF%99%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E5%85%A8%E7%9A%84%20Serverless%20%E5%B9%B3%E5%8F%B0%E8%AF%B4%E6%98%8E%E4%BA%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p><strong>无服务器运算</strong>（英语：Serverless computing），又被称为功能即服务（Function-as-a-Service，缩写为 FaaS），是云计算的一种模型。以平台即服务（PaaS）为基础，无服务器运算提供一个微型的架构，终端客户不需要部署、配置或管理服务器服务，代码运行所需要的服务器服务皆由云端平台来提供。</p><h1 id="国内服务"><a href="#国内服务" class="headerlink" title="国内服务"></a>国内服务</h1><h2 id="腾讯云"><a href="#腾讯云" class="headerlink" title="腾讯云"></a>腾讯云</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://cloud.tencent.com/product/sls">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://cloudcache.tencent-cloud.com/qcloud/favicon.ico)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">Serverless 应用中心-腾讯云</div>            <div class="tag-link-sitename"> 腾讯云</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/Hexo-Blog/main/bidqv/PixPin_2024-09-07_08-18-41.jpg" alt="img"></p><p>虽然方便，但是仅支持按量计费环境——也就是说，一键部署的环境，当免费资源用尽后，将会产生费用。且按量计费环境无法切换为包年包月环境。免费额度数据库读操作数只有 500 次 &#x2F; 天。并且需要实名。</p><h2 id="百度云"><a href="#百度云" class="headerlink" title="百度云"></a>百度云</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://cloud.baidu.com/product/cfc.html">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://bce.bdstatic.com/img/favicon.ico)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">函数计算CFC_无服务器计算-百度智能云</div>            <div class="tag-link-sitename"> 百度智能云</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p>是付费的，免费套餐没了。需要实名。<br><strong>资源套餐包</strong>，包含三种计费资源类型：资源使用量、函数调用次数和外网出流量。购买资源包后，调用函数时，将优先使用免费额度，当免费额度用完后则使用资源包抵扣。若无有效资源包或资源包已用完，则转为按需计费结算。详细资源套餐包价格请参见<a href="https://cloud.baidu.com/product-price/cfc.html">CFC价格详情</a>。<br><strong>按需付费</strong>，在您创建函数时无需付费，之后根据您使用函数时实际产生的调用次数、函数运行占用资源的时间和公网流量计费，具体的计费价格请参见<a href="https://cloud.baidu.com/product-price/cfc.html">CFC价格详情</a>。<br><strong>计算公式：</strong>总费用&#x3D;函数调用次数费用+函数运行占用资源时间费用+公网流量费用</p><h2 id="Zeabur"><a href="#Zeabur" class="headerlink" title="Zeabur"></a>Zeabur</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://zeabur.com/zh-CN">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://zeabur.com/favicon.svg)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">部署服务从未如此简单</div>            <div class="tag-link-sitename"> Zeabur</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p><img src="https://s21.ax1x.com/2024/09/07/pAeiUGd.jpg" alt="pAeiUGd.jpg"></p><p>Zeabur是国内少数无需实名，无需付费的Serverless平台，有免费额度。</p><h2 id="概括"><a href="#概括" class="headerlink" title="概括"></a>概括</h2><p>可以看到，国内的 Serverless 平台通常需要实名，且价格不低。但是这些付费的服务通常在国内访问最快速，运行最稳定。免费的服务可能不是很稳定，访问速度通常会慢一些。</p><h1 id="国外服务"><a href="#国外服务" class="headerlink" title="国外服务"></a>国外服务</h1><h2 id="Vercel"><a href="#Vercel" class="headerlink" title="Vercel"></a>Vercel</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://Vercel.com">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">Vercel: Build and deploy the best web experiences with the Frontend Cloud</div>            <div class="tag-link-sitename"> Vercel</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p><img src="https://pic.imgdb.cn/item/66dbb2d4d9c307b7e954acaa.jpg" alt="img"></p><p>免费额度非常多，每月100G，无需实名，Github即可登录。默认的 <code>vercel.app</code> 域名被DNS污染了，请绑定自定义域名。<br>但缺点也很明显，国内访问速度太慢了，即使更改DNS到 <code>cname-china.vercel-dns.com</code> 也很慢。</p><h2 id="Netlify"><a href="#Netlify" class="headerlink" title="Netlify"></a>Netlify</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.netlify.com/">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.netlify.com/favicon/favicon.ico)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">Scale & Ship Faster with a Composable Web Architecture | Netlify</div>            <div class="tag-link-sitename"> Netlify</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p><img src="https://pic.imgdb.cn/item/66dbbaf0d9c307b7e961dcc2.jpg" alt="img"></p><p>和Vercel一样提供每月100G宽带，比Vercel稍微好那么一点点，但经常无缘无故封号。 <code>netlify.app</code> 域名在不同运营商、不同地区受到DNS污染。</p><h2 id="HuggingFace-Space"><a href="#HuggingFace-Space" class="headerlink" title="HuggingFace Space"></a>HuggingFace Space</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://huggingface.co/">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://huggingface.co/favicon.ico)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">Hugging Face – The AI community building the future.</div>            <div class="tag-link-sitename"> HuggingFace</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p><img src="https://pic.imgdb.cn/item/66dbbfebd9c307b7e965a7ba.jpg" alt="img"></p><p>这是一个Ai平台，但是它提供了Space空间。这就可以当成一个 Serverless 来使用。并且允许允许通过 Cloudflare Tunnels 自定义域名。国内访问速度不错。</p><h2 id="概括-1"><a href="#概括-1" class="headerlink" title="概括"></a>概括</h2><p>这些国外的服务商基本都不需要实名认证，并且免费套餐很大方，但正是这种成本低、免费的特点，吸引了一大批违规网站。所以部分IP已经被相关部门屏蔽。在国内访问效果并不太好。如果你的业务在中国，那还是建议选择腾讯云，百度云等国内Serverless平台。<br>记住：<strong>免费的才是最贵的，所有的免费行为背后都有隐性的代价，所有免费的东西都标上了你看不见的价格。</strong></p><h1 id="可部署应用"><a href="#可部署应用" class="headerlink" title="可部署应用"></a>可部署应用</h1><h2 id="Notion-Next"><a href="#Notion-Next" class="headerlink" title="Notion-Next"></a>Notion-Next</h2><p>这是一个基于Notion的个人博客，笔记只需要在Notion上写好就可以自动同步过来。非常简单、方便，但性能不怎么好。适合零基础用户。</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.tangly1024.com/">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.tangly1024.com/favicon.ico)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">NotionNext中文 | Notion笔记，轻松建站，NotionNext官网</div>            <div class="tag-link-sitename"> Notion-Next</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p>Github开源地址：<a href="https://github.com/tangly1024/NotionNext">tangly1024&#x2F;NotionNext</a><br>演示站点（主题：HEO）：<a href="https://blog.tangly1024.com/">Tangly的学习笔记</a><br>文档：<a href="https://docs.tangly1024.com/about">NotionNext帮助手册</a></p><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>这也是一个个人博客平台，性能高，占用资源低。纯静态部署。功能较全但有一定的学习成本。本站就是基于Hexo搭建的。直接搭建Hexo是非常简单的，难点就是主题的选择、安装与配置。</p><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/Hexo-Blog/main/bidqv/PixPin_2024-09-07_11-15-30.jpg" alt="img"></p><p>Github开源地址：<a href="https://github.com/hexojs/hexo">hexojs&#x2F;hexo</a><br>演示站点（主题：AnZhiyu）：<a href="https://blog.anheyu.com/">安知鱼 - 生活明朗 万物可爱</a><br>官方文档：<a href="https://hexo.io/zh-cn/">Hexo</a><br>AnZhiyu文档：<a href="https://docs.anheyu.com/">安知鱼主题官方文档</a></p><h2 id="Waline"><a href="#Waline" class="headerlink" title="Waline"></a>Waline</h2><p>Waline是一款简洁、安全的评论系统。具有轻量完全免费部署、登录支持、自由评论、强大的安全性等特点，成为一众博客站长的最佳选择之一。<br><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/Hexo-Blog/main/bidqv/PixPin_2024-09-07_11-21-11.jpg" alt="img"></p><p>文档：<a href="https://waline.js.org/guide/get-started/">快速上手</a><br>Github开源地址：<a href="https://github.com/walinejs/waline">walinejs&#x2F;waline</a><br>演示站点：<a href="https://waline-comment.vuejs.press/">Waline Example</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 云服务器&amp;云电脑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Web前端 </tag>
+            
+            <tag> 技术 </tag>
+            
+            <tag> 云服务器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Dall-E3现在竟然免费——AI绘图应用推荐</title>
       <link href="/2024/08/29/Dall-E3%E7%8E%B0%E5%9C%A8%E7%AB%9F%E7%84%B6%E5%85%8D%E8%B4%B9%E2%80%94%E2%80%94AI%E7%BB%98%E5%9B%BE%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/"/>
       <url>/2024/08/29/Dall-E3%E7%8E%B0%E5%9C%A8%E7%AB%9F%E7%84%B6%E5%85%8D%E8%B4%B9%E2%80%94%E2%80%94AI%E7%BB%98%E5%9B%BE%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
@@ -20,9 +49,9 @@
       
         <tags>
             
-            <tag> AI </tag>
-            
             <tag> ChatGPT </tag>
+            
+            <tag> AI </tag>
             
             <tag> AI GPT </tag>
             
@@ -159,9 +188,9 @@
       
         <tags>
             
-            <tag> AI </tag>
-            
             <tag> ChatGPT </tag>
+            
+            <tag> AI </tag>
             
             <tag> OpenAI </tag>
             
@@ -391,9 +420,9 @@
       
         <tags>
             
-            <tag> AI </tag>
-            
             <tag> ChatGPT </tag>
+            
+            <tag> AI </tag>
             
             <tag> 羊毛 </tag>
             
@@ -501,9 +530,9 @@
       
         <tags>
             
-            <tag> AI </tag>
-            
             <tag> ChatGPT </tag>
+            
+            <tag> AI </tag>
             
             <tag> AI GPT </tag>
             
@@ -530,9 +559,9 @@
       
         <tags>
             
-            <tag> 思维导图 </tag>
-            
             <tag> AI </tag>
+            
+            <tag> 思维导图 </tag>
             
             <tag> 科技 </tag>
             
