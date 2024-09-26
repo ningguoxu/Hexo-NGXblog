@@ -8,9 +8,25 @@
       <link href="/2024/09/25/PhotoShop%E9%AB%98%E7%BA%A7%E6%84%9F%E7%89%B9%E6%95%88%E6%95%88%E6%9E%9C%E5%8F%82%E8%80%83/"/>
       <url>/2024/09/25/PhotoShop%E9%AB%98%E7%BA%A7%E6%84%9F%E7%89%B9%E6%95%88%E6%95%88%E6%9E%9C%E5%8F%82%E8%80%83/</url>
       
-        <content type="html"><![CDATA[<h1 id="拼图效果"><a href="#拼图效果" class="headerlink" title="拼图效果"></a>拼图效果</h1><h2 id="绘制图案"><a href="#绘制图案" class="headerlink" title="绘制图案"></a>绘制图案</h2><ul><li>创建一个 300x300 的项目。</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_11-51-30.webp" alt="img"></p><ul><li>使用“矩形选框工具”绘制一个方形，如图。然后使用“椭圆选框工具”按住 <kbd>Shift</kbd> 可以绘制一个圆形。绘制后使用 <kbd>Alt+Del</kbd> 填充前景色；将圆形移动到方形的下面，按住 <kbd>Delete</kbd> 删除。</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-01-05.webp" alt="img"></p><ul><li>按住 <kbd>Ctrl+J</kbd> 复制图层，将它移动到右下角并旋转180度。</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-08-47.webp" alt="img"></p><ul><li>将背景的隐藏就形成了一个透明的拼图样式。然后，定义图案方便在其他项目中调用。</li></ul><h2 id="应用图案"><a href="#应用图案" class="headerlink" title="应用图案"></a>应用图案</h2><ul><li><p>打开需要添加拼图效果的图片，新建一个图层</p></li><li><p>按住键盘上的 <kbd>Shift + F5</kbd> 快捷键填充图案，选择刚刚定义的拼图图案，点击“确定”</p></li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-27-18.webp" alt="img"></p><ul><li>将填充改为 0% ，鼠标右键图层，选择混合选项。勾选“斜面和浮雕”，参数就看图片上的就行；和“描边”</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-20-04.webp" alt="img"></p><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-24-39.webp" alt="img"></p><h2 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h2><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-33-01.webp" alt="img"></p><blockquote><p>未完待续。。。</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h1 id="高级改字"><a href="#高级改字" class="headerlink" title="高级改字"></a>高级改字</h1><h2 id="伪装字体"><a href="#伪装字体" class="headerlink" title="伪装字体"></a>伪装字体</h2><ul><li>打开需要修改的文件图片，先新建文本框，打入相同的文字并保持字体，样式，颜色与原本相同。例如这里的字体是华文行楷，所以一定要与原始字体一样，这样才能做到无痕迹修改。</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/picx-images-hosting/master/PixPin_2024-09-26_13-01-55.7egqrlfdq7.webp" alt="PixPin_2024-09-26_13-01-55"></p><h2 id="删除原始文字"><a href="#删除原始文字" class="headerlink" title="删除原始文字"></a>删除原始文字</h2><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/picx-images-hosting/master/PixPin_2024-09-26_13-19-22.4g4go3u8km.webp" alt="img"></p><ul><li>使用“套索工具”或“矩形选框工具”建立选区，然后点击“编辑” ——&gt; “内容识别填充”进行调整，预览好后点击确定</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/picx-images-hosting/master/PixPin_2024-09-26_13-44-32.7sn6ii7hfw.webp" alt="img"></p><h2 id="填充文本颜色"><a href="#填充文本颜色" class="headerlink" title="填充文本颜色"></a>填充文本颜色</h2><ul><li><p>按住键盘上的 <kbd>Ctrl+R</kbd> 调出标尺工具，从标尺工具中拖拽辅助线到合适位置并移动文字</p></li><li><p>接着使用“吸管”工具吸取文字颜色，这时前景色就会变成吸取的颜色</p></li><li><p>选中文本使用 <kbd>Alt+Del</kbd> 键填充前景色</p></li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/picx-images-hosting/master/PixPin_2024-09-26_13-57-31.8ad873oied.webp" alt="img"></p><h2 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h2><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/picx-images-hosting/master/PixPin_2024-09-26_14-05-07.syx0mknm5.webp" alt="img"></p><h1 id="拼图效果"><a href="#拼图效果" class="headerlink" title="拼图效果"></a>拼图效果</h1><h2 id="绘制图案"><a href="#绘制图案" class="headerlink" title="绘制图案"></a>绘制图案</h2><ul><li>创建一个 300x300 的项目。</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_11-51-30.webp" alt="img"></p><ul><li>使用“矩形选框工具”绘制一个方形，如图。然后使用“椭圆选框工具”按住 <kbd>Shift</kbd> 可以绘制一个圆形。绘制后使用 <kbd>Alt+Del</kbd> 填充前景色；将圆形移动到方形的下面，按住 <kbd>Delete</kbd> 删除。</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-01-05.webp" alt="img"></p><ul><li>按住 <kbd>Ctrl+J</kbd> 复制图层，将它移动到右下角并旋转180度。</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-08-47.webp" alt="img"></p><ul><li>将背景的隐藏就形成了一个透明的拼图样式。然后，定义图案方便在其他项目中调用。</li></ul><h2 id="应用图案"><a href="#应用图案" class="headerlink" title="应用图案"></a>应用图案</h2><ul><li><p>打开需要添加拼图效果的图片，新建一个图层</p></li><li><p>按住键盘上的 <kbd>Shift + F5</kbd> 快捷键填充图案，选择刚刚定义的拼图图案，点击“确定”</p></li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-27-18.webp" alt="img"></p><ul><li>将填充改为 0% ，鼠标右键图层，选择混合选项。勾选“斜面和浮雕”，参数就看图片上的就行；和“描边”</li></ul><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-20-04.webp" alt="img"></p><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-24-39.webp" alt="img"></p><h2 id="最终效果-1"><a href="#最终效果-1" class="headerlink" title="最终效果"></a>最终效果</h2><p><img src="https://webp.080912.xyz/Usedonlyasapictureacceleration/https/raw.githubusercontent.com/ngxblog/blog/refs/heads/main/img/PixPin_2024-09-25_12-33-01.webp" alt="img"></p><blockquote><p>未完待续。。。</p></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> 设计美学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 建站 </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> PhotoShop </tag>
+            
+        </tags>
       
     </entry>
     
@@ -33,9 +49,9 @@
       
         <tags>
             
-            <tag> 前沿快讯 </tag>
-            
             <tag> 网络安全 </tag>
+            
+            <tag> 前沿快讯 </tag>
             
         </tags>
       
@@ -288,9 +304,9 @@
             
             <tag> 教程 </tag>
             
-            <tag> Windows </tag>
-            
             <tag> Java </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       
